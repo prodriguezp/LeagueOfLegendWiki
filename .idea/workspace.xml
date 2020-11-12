@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ea90dcb-9ae0-4748-9f8c-6daf90bb9fa7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kADfB8fIHMVbSmEDoafJm4CxSO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pedro Luis\Documents\HTML Y CSS - Workspace\League Of Legends\css" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ea90dcb-9ae0-4748-9f8c-6daf90bb9fa7" name="Default Changelist" comment="" />
+      <created>1605134603048</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605134603048</updated>
+      <workItem from="1605134604101" duration="6542000" />
+      <workItem from="1605141628053" duration="60000" />
+      <workItem from="1605142283249" duration="4599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1170" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605142320935">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1170" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605142320935" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1605141686334">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605141686334" />
+    <state x="1096" y="242" key="run.anything.popup" timestamp="1605139200025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1096" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605139200025" />
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1605139524067">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605139524067" />
+  </component>
+</project>

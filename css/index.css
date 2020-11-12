@@ -1,0 +1,82 @@
+*{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+body{
+    background: url("https://lol-stats.net/uploads/X0geMjIXBEZOVO5U7CvrqJW3shfN1NaI57cmgyxZ.jpeg");
+}
+header{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+header >img{
+    width: 350px;
+}
+#menu {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+#menu > .item-menu {
+    height: 65%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 20px;
+}
+#menu >.item-menu:hover >div{
+    opacity: 1;
+
+
+}
+#menu > .item-menu{
+    transition: filter 1s ,border-radius 0.5s;
+    border: gray 3px solid;
+    filter: grayscale(100%);
+    border-radius: 50px;
+
+}
+#menu > .item-menu:hover{
+    filter: grayscale(10%);
+    border-radius: 5px;
+
+}
+#menu >.item-menu >div{
+    transition: opacity 0.5s;
+    text-shadow: 1px 1px 2px white;
+    opacity: 0;
+    text-align: center;
+    color: #191d1c;
+    font-size: x-large;
+}
+#menu >.item-menu >div>img{
+    width: 200px;
+}
+#menu >.item-menu >div>.imgTop{
+    transform: rotate(180deg);
+}
+
+.lol {
+    background: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-league-display-2017/es_MX/cb24025fade09e3f965776440dffcc65024d3266/assets/img/content/splash/content-original-championillustrations-group-slashes.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: -250px;
+}
+
+.tft {
+    background: url("https://i1.wp.com/guiadeparche.com/wp-content/uploads/2020/03/tft-3-thumb.jpg?fit=1920%2C1080&ssl=1");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.rune {
+    background: url("https://esports.eldesmarque.com/wp-content/uploads/2020/01/Darius-legends-of-runeterra.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: 900px;
+
+}
