@@ -14,7 +14,7 @@ class Campeon {
         <h1>${this.nombre}</h1>
         <img class="border-img top" src="https://img.rankedboost.com/wp-content/uploads/2016/06/League-of-Legends-Profile-Banner-Trim-Season-Rewards.png" alt="">
         <p>${this.historia}</p>
-        <button><a href="../info-campeon.html/${this.id}"><img src="https://electronicssoftware.net/wp-content/uploads/lol-icon.png" alt=""></a></button>
+        <button><a href="info-campeon.html/?id=${this.id}"><img src="https://electronicssoftware.net/wp-content/uploads/lol-icon.png" alt=""></a></button>
         <img class="border-img" src="https://img.rankedboost.com/wp-content/uploads/2016/06/League-of-Legends-Profile-Banner-Trim-Season-Rewards.png" alt="">        
         `;
 

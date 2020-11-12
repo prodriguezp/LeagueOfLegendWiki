@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #FCF2CC;
+}
+.body {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.back{
+    position: fixed;
+    top: 0;
+    background: rgba(0,0,0,0);
+    border: 0;
+
+}
+.back img{
+    border-radius: 100% ;
+}
+.info-campeon {
+    display: flex;
+}
+
+.info-campeon > img {
+    width: 50%;
+}
+
+.info-campeon > .stats {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-campeon > .stats > .head {
+    display: flex;
+}
+
+.head > img {
+    width: 120px;
+}
+
+.skins {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skins h4{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skins h4 img{
+    width: 50px;
+    vertical-align: center;
+}
+
+.skins h4 img:first-of-type{
+    transform: rotate(90deg);
+}
+
+.skins h4 img:last-of-type{
+    transform: rotate(-90deg);
+}
+.skins >div{
+    margin-bottom: 50px;
+}
+.skins ,h2 {
+    margin-top: 50px;
+    text-align: center;
+}
+.gif{
+    animation: forwards desaparecer 2s;
+}
+.none{
+    display: none;
+}
+@keyframes desaparecer {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        display: none;
+    }
+
+}
