@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ea90dcb-9ae0-4748-9f8c-6daf90bb9fa7" name="Default Changelist" comment="" />
+    <list default="true" id="6ea90dcb-9ae0-4748-9f8c-6daf90bb9fa7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/campeones.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/cards.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/Campeon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/getCampeones.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +21,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kADfB8fIHMVbSmEDoafJm4CxSO" />
   <component name="ProjectViewState">
@@ -23,9 +36,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspace-phpStorm/restApi" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -45,6 +59,7 @@
       <workItem from="1605134604101" duration="6542000" />
       <workItem from="1605141628053" duration="60000" />
       <workItem from="1605142283249" duration="4599000" />
+      <workItem from="1605192383911" duration="4247000" />
     </task>
     <servers />
   </component>
@@ -56,17 +71,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1170" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605142320935" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1605141686334">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1605198930761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605141686334" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605198930761" />
     <state x="1096" y="242" key="run.anything.popup" timestamp="1605139200025">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1096" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605139200025" />
-    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1605139524067">
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1605197917346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605139524067" />
+    <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605197917346" />
   </component>
 </project>

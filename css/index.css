@@ -42,7 +42,7 @@ header >img{
 }
 #menu > .item-menu:hover{
     filter: grayscale(10%);
-    border-radius: 5px;
+    border-radius: 100px;
 
 }
 #menu >.item-menu >div{
