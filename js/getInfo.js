@@ -40,26 +40,21 @@ async function main() {
         skin => {
             let img = document.createElement("div");
             img.innerHTML += `
-                <div>
                 <img src="http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${campeon}_${skin.num}.jpg" alt="">
                        <h4>
-                            <img src="https://img.rankedboost.com/wp-content/uploads/2016/06/Season_2019_-_Default_Trim.png" alt="">
+                            <img src="https://i.pinimg.com/originals/5c/9f/0a/5c9f0a770467b2334436ec449ed50f02.png" alt="">
                             <span>${skin.name}</span>
-                            <img src="https://img.rankedboost.com/wp-content/uploads/2016/06/Season_2019_-_Default_Trim.png" alt="">
+                            <img src="https://i.pinimg.com/originals/5c/9f/0a/5c9f0a770467b2334436ec449ed50f02.png" alt="">
                        </h4>
-                </div>
             `;
             skinsDiv.appendChild(img);
         }
     );
 
-    setTimeout(function ()
-    {
-        body.querySelector(".gif").classList.add("none");
-        body.appendChild(infoDiv);
-        body.innerHTML +=`<h2>Skins de ${campeon}</h2>`;
-        body.appendChild(skinsDiv);
-    },2000)
+
+    body.appendChild(infoDiv);
+    body.innerHTML += `<h2>Skins de ${campeon}</h2>`;
+    body.appendChild(skinsDiv);
 
 
 }

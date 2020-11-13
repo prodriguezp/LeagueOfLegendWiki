@@ -6,14 +6,40 @@
     <link rel="stylesheet" href="css/cards.css">
     <script src="js/Campeon.js"></script>
     <script src="js/getCampeones.js"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-<button class="back"><a href="/lolWiki/"><img
-        src="http://ddragon.leagueoflegends.com/cdn/10.23.1/img/spell/SummonerPoroRecall.png"
-        alt=""></a></button>
+<div class="container">
 
-<div class="card-container">
+    <button class="back"><a href="/lolWiki/"><img
+            src="http://ddragon.leagueoflegends.com/cdn/10.23.1/img/spell/SummonerPoroRecall.png"
+            alt=""></a></button>
 
+    <div class="buscador">
+        <h1>Busca a tu campeón favorito</h1>
+        <input type="text" id="nombreChamp"/>
+        <select id="power">
+            <option value="">N/A</option>
+            <option value="None">None</option>
+            <option value="Mana">Mana</option>
+            <option value="Blood Well">Blood Well</option>
+            <option value="Energy">Energy</option>
+            <option value="Rage">Rage</option>
+            <option value="Courage">Courage</option>
+            <option value="Shield">Shield</option>
+            <option value="Flow">Flow</option>
+            <option value="Fury">Fury</option>
+            <option value="Ferocity">Ferocity</option>
+            <option value="Heat">Heat</option>
+            <option value="Grit">Grit</option>
+            <option value="Crimson Rush">Crimson Rush</option>
+        </select>
+    </div>
+    <div class="card-container">
+
+    </div>
 </div>
 </body>
 </html>
