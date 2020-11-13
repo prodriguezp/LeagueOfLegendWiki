@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ea90dcb-9ae0-4748-9f8c-6daf90bb9fa7" name="Default Changelist" comment="Trabajando con las lista de campeones - Busqueda de Campeones por nombre">
-      <change beforePath="$PROJECT_DIR$/css/cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/cards.css" afterDir="false" />
+    <list default="true" id="6ea90dcb-9ae0-4748-9f8c-6daf90bb9fa7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/info-campeon.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/info-campeon.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/info-campeon.html" beforeDir="false" afterPath="$PROJECT_DIR$/info-campeon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/getInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/getInfo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <workItem from="1605141628053" duration="60000" />
       <workItem from="1605142283249" duration="4599000" />
       <workItem from="1605192383911" duration="17223000" />
-      <workItem from="1605224099551" duration="2130000" />
+      <workItem from="1605224099551" duration="4562000" />
     </task>
     <task id="LOCAL-00001" summary="Trabajando con las  lista de campeones - Card creadas">
       <created>1605200584021</created>
@@ -80,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605226228946</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Trabajando con los estilos">
+      <created>1605226273660</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605226273660</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,17 +98,18 @@
     <MESSAGE value="Trabajando con las  lista de campeones - Card creadas" />
     <MESSAGE value="Trabajando con las  info de los campeones - Info Vista con Skins" />
     <MESSAGE value="Trabajando con las lista de campeones - Busqueda de Campeones por nombre y tipo de poder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trabajando con las lista de campeones - Busqueda de Campeones por nombre y tipo de poder" />
+    <MESSAGE value="Trabajando con los estilos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trabajando con los estilos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1170" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605142320935">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1170" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605142320935" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1605226225224">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1605226270815">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605226225224" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1605226270815" />
     <state x="254" y="86" key="DiffContextDialog" timestamp="1605214896985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -109,14 +118,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605209295238" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1605226235425">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1605226281461">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605226235425" />
-    <state x="1096" y="242" key="run.anything.popup" timestamp="1605225144553">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1605226281461" />
+    <state x="1096" y="242" key="run.anything.popup" timestamp="1605228072237">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1096" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605225144553" />
+    <state x="1096" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1605228072237" />
     <state x="1103" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1605197917346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -89,6 +89,7 @@
     text-align: center;
 }
 
+
 .none{
     display: none;
 }
@@ -115,4 +116,7 @@ body{
     -webkit-box-shadow: 0px 0px 24px 7px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 24px 7px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 24px 7px rgba(0,0,0,0.75);
+}
+summary{
+    font-size: xxx-large;
 }

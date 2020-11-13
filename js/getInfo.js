@@ -11,8 +11,6 @@ async function main() {
     let campeon = new URLSearchParams(window.location.search).get("id")
     let details = await getDetails(campeon);
     let body = document.querySelector(".body");
-
-
     let infoDiv = document.createElement("div");
     infoDiv.className = "info-campeon";
     infoDiv.innerHTML = `<div class="info-campeon">
@@ -32,10 +30,17 @@ async function main() {
         </p>
                 
     </div>
-    
-</div>`;
-    let skinsDiv = document.createElement("div");
-    skinsDiv.className = "skins";
+    </div>`;
+
+
+    let skinsDiv = document.createElement("details");
+    skinsDiv.innerHTML = "<summary>Skins</summary>"
+
+
+    let div = document.createElement("div");
+    div.className = "skins";
+
+
     details.skins.forEach(
         skin => {
             let img = document.createElement("div");
@@ -47,13 +52,13 @@ async function main() {
                             <img src="https://i.pinimg.com/originals/5c/9f/0a/5c9f0a770467b2334436ec449ed50f02.png" alt="">
                        </h4>
             `;
-            skinsDiv.appendChild(img);
+            div.appendChild(img);
         }
     );
+    skinsDiv.appendChild(div);
 
 
     body.appendChild(infoDiv);
-    body.innerHTML += `<h2>Skins de ${campeon}</h2>`;
     body.appendChild(skinsDiv);
 
 
