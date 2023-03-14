@@ -3,3 +3,6 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/example/public_html/
     - /bin/cp -R images $DEPLOYPATH
+    - name: Log de implementación
+      command: |
+        echo "$(date '+%H:%M:%S') - \"$(git log --format='%s' -n 1)\"" >> $DEPLOYPATH/deploy.log
