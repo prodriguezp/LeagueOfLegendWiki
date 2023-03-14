@@ -3,3 +3,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/username/public_html/
     - /bin/cp -r * $DEPLOYPATH
+    - echo "$(date '+%H:%M:%S') - \"$(git log --format='%s' -n 1)\"" >> $DEPLOYPATH/deploy.log
+
