@@ -1,7 +1,4 @@
 ---
 deploy:
   tasks:
-    - export DEPLOYPATH=/home/usuario/public_html
-    - /usr/local/cpanel/3rdparty/bin/git pull origin master
-    - echo "$(date '+%H:%M:%S') - \"$(git log --format='%s' -n 1)\"" >> deploy.log
-  app_root: /home/usuario/public_html
+    - mkdir patata
