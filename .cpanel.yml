@@ -1,8 +1,8 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
-    - /bin/cp -R images $DEPLOYPATH
+    - export DEPLOYPATH=/home/n266021/public_html/
+    - /bin/rsync -av / $DEPLOYPATH
     - name: Log de implementación
       command: |
         echo "$(date '+%H:%M:%S') - \"$(git log --format='%s' -n 1)\"" >> $DEPLOYPATH/deploy.log
